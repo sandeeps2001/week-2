@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.boxcontainer{
+display: flex;
+margin: 200px;
+}
+.box{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background: blue;
+} 
+
+.box1{
+    flex-grow: 1;
+}
+@media (height > 600px) {
+    .box{
+    background: red;
+    background-image: url(/css/architecture.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+}
+
+
+
+/* 
+@media (orientation:landscape) {
+    .box{
+        background: hotpink;
+    }
+} */
+
